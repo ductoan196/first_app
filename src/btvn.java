@@ -24,7 +24,7 @@ public class btvn {
 
     //Tính tổng 2 số bất kỳ
     public static int sumTwoNumber(int c, int d){
-        return (int) (c + d);
+        return (c + d);
     }
     //Tính bình phương 1 số bất kỳ
     public static int square(int number){
@@ -33,11 +33,11 @@ public class btvn {
 
     //Tính thể kỷ của một năm bất kỳ
     public static int century(int year){
-        return (int) Math.floor(year/100 +1);
+        return (int) Math.floor((float)year/100 +1);
     }
 
     //Tính chỉ số BMI
     public static double bmi_index(double weight, double height){
-        return (double) weight/Math.pow(height,2);
+        return weight/Math.pow(height,2);
     }
 }
