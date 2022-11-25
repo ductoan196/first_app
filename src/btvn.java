@@ -19,7 +19,7 @@ public class btvn {
         System.out.println("Tổng hai số là " + data);
         System.out.println("Bình phương một số: "+ square_result);
         System.out.println("Century:" + century_result);
-        System.out.println("Chỉ số BMI: " + bmi_result);
+        System.out.println("Chỉ số BMI: " + (double)Math.round(bmi_result * 100)/100);
     }
 
     //Tính tổng 2 số bất kỳ
