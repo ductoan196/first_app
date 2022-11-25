@@ -14,7 +14,7 @@ public class methodDemo {
         //Class: Khuôn bánh (chỉ có 1)
         //Object: Bánh sinh ra từ khuôn
         methodDemo methodtoan = new methodDemo();
-        methodDemo.sayHellowwithName("Đức Toàn");
+       methodtoan .sayHellowithName("Đức Toàn");
 
     }
 
@@ -34,7 +34,7 @@ public class methodDemo {
     }
 
     //Ví dụ method có 1 tham số
-    public void sayHellowwithName(String name) {
+    public void sayHellowithName(String name) {
         System.out.println("Xin chào " + name);
     }
 }
